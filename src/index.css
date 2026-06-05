@@ -1,0 +1,120 @@
+:root {
+  --blue-main: #14347b;
+  --pink-accent: #de3c96;
+  --bg-color: #fcfcfc;
+  --text-dark: #111111;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .pixel-font {
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+}
+
+.script-font {
+  font-family: 'Playball', cursive;
+}
+
+/* Y2K Brutalism Card Styles */
+.y2k-card {
+  background-color: white;
+  border: 4px solid var(--blue-main);
+  box-shadow: 8px 8px 0px var(--blue-main);
+  transition: all 0.15s ease-in-out;
+  border-radius: 0;
+}
+
+.y2k-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0px var(--pink-accent);
+}
+
+/* Y2K Buttons */
+.y2k-button {
+  font-family: 'Press Start 2P', cursive;
+  background-color: white;
+  color: var(--blue-main);
+  border: 4px solid var(--blue-main);
+  box-shadow: 6px 6px 0px var(--pink-accent);
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.1s ease;
+}
+
+.y2k-button:hover {
+  background-color: var(--blue-main);
+  color: white;
+  box-shadow: 4px 4px 0px var(--text-dark);
+}
+
+.y2k-button-danger {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #ff4141;
+  color: white;
+  border: 3px solid var(--text-dark);
+  box-shadow: 4px 4px 0px var(--text-dark);
+  border-radius: 0;
+  font-size: 0.65rem;
+  padding: 6px 12px;
+}
+
+.y2k-button-danger:hover {
+  background-color: black;
+}
+
+/* Inputs & Form Elements */
+.y2k-input {
+  border: 3px solid var(--blue-main);
+  border-radius: 0;
+  padding: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.05);
+}
+
+.y2k-input:focus {
+  outline: none;
+  border-color: var(--pink-accent);
+  box-shadow: 4px 4px 0px var(--blue-main);
+}
+
+/* Polaroid Photo Frame */
+.polaroid {
+  background: white;
+  padding: 12px 12px 45px 12px;
+  border: 3px solid var(--blue-main);
+  box-shadow: 8px 8px 0px rgba(0,0,0,0.15);
+}
+
+.polaroid img, .polaroid .img-placeholder {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  background-color: #e5e5e5;
+  border: 3px solid var(--blue-main);
+}
+
+.y2k-badge {
+  background-color: var(--pink-accent);
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.6rem;
+  padding: 6px 12px;
+  border: 2px solid var(--blue-main);
+}
+
+/* Custom Navbar Active Link Style */
+.nav-link.active {
+  background-color: var(--pink-accent) !important;
+  color: white !important;
+  border: 2px solid var(--blue-main);
+}
