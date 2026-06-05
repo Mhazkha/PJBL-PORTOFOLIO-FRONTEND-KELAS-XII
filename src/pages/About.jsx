@@ -24,7 +24,7 @@ function About() {
           </h1>
           <div className="bg-white y2k-card p-4 mb-4">
             <p className="fw-bold text-blue-main lh-lg" style={{ fontSize: "1rem" }}>
-              Saya memiliki minat mendalam pada pengembangan sistem teknologi berbasis web serta pembuatan seni grafis komputer tiga dimensi. Senang mengeksplorasi kode-kode antarmuka komponen front-end dan mengintegrasikannya secara selaras.
+              Saya memiliki minat mendalam pada pengembangan sistem teknologi berbasis web, desain grafis, serta pembuatan seni grafis komputer tiga dimensi. Senang mengeksplorasi kode-kode antarmuka komponen front-end dan mengintegrasikannya secara selaras.
             </p>
             <hr style={{ border: "2px solid #14347b", opacity: 1 }} />
             <h3 className="pixel-font text-blue-main my-3" style={{ fontSize: "0.75rem" }}>TECH_STACK_LIST:</h3>
