@@ -15,11 +15,11 @@ function Home() {
             I'M AFIQ ZIAN
           </h1>
           <h3 className="pixel-font text-muted my-4" style={{ fontSize: "0.9rem", letterSpacing: "1px" }}>
-            Front-End Developer & 3D Animator
+            Front-End Developer - 3D Animator - Graphic Designer
           </h3>
           <div className="bg-white y2k-card p-4 my-4">
             <p className="fw-bold m-0 text-blue-main" style={{ fontSize: "1.05rem", lineHeight: "1.7" }}>
-              Siswa SMKN 1 Purbalingga dari kompetensi keahlian Pengembangan Perangkat Lunak dan Gim (PPLG). Berfokus pada pembuatan aplikasi web interaktif serta eksplorasi animasi lingkungan 3D menggunakan Blender.
+              Siswa SMKN 1 Purbalingga dari kompetensi keahlian Rekayasa Perangkat Lunak (RPL). Berfokus pada pembuatan aplikasi web interaktif serta eksplorasi animasi lingkungan 3D menggunakan Blender.
             </p>
           </div>
           <div className="mt-5 d-flex flex-wrap gap-4">
